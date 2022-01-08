@@ -1,0 +1,27 @@
+---
+layout: default
+
+---
+
+<div class="home">
+  {%- if site.posts.size == 0 -%}
+    <h2 class="page-heading">Non sono previsti spettacoli</h2> 
+  {%- else -%}
+    <h2 class="page-heading">Calendario</h2> 
+  {%- endif -%}
+
+
+  {% for post in site.categories.calendar%}  
+    <div class="calendar">
+          <h3 class="bold"> {{ post.title | escape }} </h3>
+       
+          {% for item in post.data-calendario %}
+            <p>{{ item.link }}</p>
+          {% endfor %} 
+        
+    </div>
+  {% endfor %}      
+
+  {{ content }}
+
+</div>

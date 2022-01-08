@@ -1,0 +1,4 @@
+---
+layout: stampa
+title: Stampa
+---

@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="title-container">
+    <h1 class="title bold">{{page.title | escape }}</h1>
+    {% if page.subtitle %}
+      <h2>{{page.subtitle}}</h2>
+    {% endif %}
+  </div>
+  <div class="post-container e-content" itemprop="articleBody">
+    <div class="post-data">
+
+      <img class="post-image" src="/img/{{page.image}}"/>
+      <div class="post-credits">
+        <h3 class="bold">Credits</h3>
+        
+        <i>{{ page.credits | markdownify }}</i>
+        {% if page.comunicato-stampa %}
+          {% if page.comunicato-stampa contains 'http' %}
+            <div>
+              <a href="{{page.comunicato-stampa}}" ><img class="icon" src="/img/pdf_icon.svg"/> Comunicato Stampa</a>
+            </div>
+          {% else %}
+            <div>
+              <a href="/data/{{page.comunicato-stampa}}" ><img class="icon" src="/img/pdf_icon.svg"/> Comunicato Stampa</a>
+            </div>
+          {% endif %} 
+        {% endif %} 
+        {% if page.video %}
+          <div class="videoWrapper">
+            <iframe width="560" height="315" src="{% if page.video %}{{ page.video}}{% endif %} " frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+    <div class="post-data-content  post-main-content text-justify">
+      <h3 class="bold">Note di regia</h3>
+      {{ content }}
+    </div>    
+  </div>
+  {% if page.imagethumb %}
+    <div class="gallery">
+      <h3 class="bold">Fotografie</h3>
+        <ul>
+          {% if page.imagethumb %}
+              {% for item in page.imagethumb %}
+                {% if item.link contains 'http' %}
+                  <li>
+                    <img src="{{ item.link }}" alt="{{ page.title }}"/>
+                  </li>
+                  {% else %}
+                  <li>
+                    <img src="/img/{{ item.link }}" alt="{{ page.title }}"/>
+                  </li>
+                {% endif %} 
+              {% endfor %}
+          {% else%}	
+          {% endif%}	
+        </ul>
+    </div>
+  {% endif %}
+  {% if page.fotografo %}
+  <div class="gallery">
+    <p><i>Foto di {{page.fotografo}}</i></p>
+  </div>
+  {% endif %}
+  {% if page.imagethumb %}
+    <div class="gallery">
+        <div class="gallery-items">
+        {% if page.imagethumb-2 %}
+            {% for item in page.imagethumb-2 %}
+              {% if item.link contains 'http' %}
+                  <ul>
+                    <li>
+                      <img src="{{ item.link }}" alt="{{ page.title }}"/>
+                    </li>
+                  </ul>   
+                  {% else %}
+                  <ul>
+                    <li>
+                      <img src="/img/{{ item.link }}" alt="{{ page.title }}"/>
+                    </li>
+                  </ul>   
+              {% endif %}
+            {% endfor %}
+            {% else%}	
+        {% endif%}	
+        </div> 
+    </div>
+  {% endif %}
+  {% if page.fotografo-2 %}
+  <div class="gallery">
+    <p><i>Foto di {{page.fotografo-2}}</i></p>
+  </div>
+  {% endif %}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

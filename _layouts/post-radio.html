@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="title-container">
+    <h1 class="title bold">{{page.title | escape }}</h1>
+    {% if page.subtitle %}
+      <h2>{{page.subtitle}}</h2>
+    {% endif %}
+  </div>
+  <div class="post-container" itemprop="articleBody"> 
+    <div>
+      
+      {{ content }}
+    </div>
+  </div>
+
+    <div class="post-data-radio">
+      {% for item in page.episodes %}
+      <div class="post-radio">
+        <hr>
+         <h4>{{item.titl}}</h4>
+         <a class="spreaker-player" data-resource="episode_id={{item.id}}" data-theme="light" data-autoplay="false" data-playlist="false" data-width="100%" data-height="100px"></a>
+          <div class="radio-descr">
+             {{item.descr}}
+          </div>
+      </div>
+      {% endfor %}
+      <script async src="https://widget.spreaker.com/widgets.js"></script>
+    </div>
+
+    <div class="radio-press">
+      <p>”Specie di spazi” è un programma radiofonico, ideato da Fabio Condemi all’interno di Radio India e ispirato all’omonimo libro di George Perec. Invece che ospitare un resoconto debilitato, ho voluto raccogliere in questa pagina un prolungamento delle concatenazioni; un getto di voci, ulteriormente montate, portate oltre il luogo delle contingenze.</p>
+      <p>Se esiste una forza concreta della pandemia -da innestare nel teatro-,  essa dovrà trovarsi proprio nel moto pandemico delle idee, ovvero in quella peste citata in uno degli interventi qui sotto. ”Specie di spazi” sfugge ad ogni puntata il pericolo dell’arenamento; non è un riempitivo per il tempo dell’attesa, ma semmai un anticipo su quel tempo verso cui ogni attesa potrebbe tendere: tempo pieno proprio perchè bucato; tempo che scarta ogni direzione di tempo; tempo in cui, oscillando tra labirinto e labirintite, si producono sfasamenti in grado di far toccare cose lontane, e sciogliere così le distanze irrimediabili.</p>
+      <p><i>Giorgiomaria Cornelio</i></p>
+    </div>
+  
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper footer">
+
+    <div class="footer-left">
+        <p>© {{ 'now' | date: "%Y" }}, &nbsp;
+          {%- if site.author -%}
+           {{ site.author | escape }}
+            {%- else -%}
+            {{ site.title | escape }}
+          {%- endif -%}
+        </p>
+      </div>
+
+    <div class="footer-right">
+        <ul class="contact-list">
+            <li>
+              {%- include social.html -%}
+            </li>
+        </ul>
+    </div>
+
+    </div>
+
+  </div>
+
+</footer>

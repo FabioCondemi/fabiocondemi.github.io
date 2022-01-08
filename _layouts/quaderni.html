@@ -1,0 +1,17 @@
+---
+layout: default
+title: quaderni
+---
+
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="post-container e-content" itemprop="articleBody">
+    <div class="bozzetti">
+      <h1 class="title bold">{{page.title | escape }}</h1>
+      {{ content }}
+    </div>    
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
