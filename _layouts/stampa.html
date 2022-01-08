@@ -9,7 +9,7 @@ layout: default
     
     {% for post in site.categories.stampa %}  
       <a href="{{post.link}}">
-        <h3> {{ post.title | escape }} | {{ post.fonte}} | {{ post.date | date: "%D"}} </h3>
+        <h3> <strong> {{ post.title | escape }}</strong>  | {{ post.fonte}} | {{ post.date | date: "%D"}} </h3>
       </a>
     {% endfor %}   
   </div>   
