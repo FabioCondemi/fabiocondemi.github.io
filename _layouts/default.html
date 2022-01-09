@@ -10,14 +10,18 @@
      {%- include home-bg.html -%}
     {% endif %}
     {% if page.layout == 'post' or page.layout == 'post-radio' or page.layout == 'quaderni' %}
-     {%- include post-bg.html -%}
+     {% include post-bg.html %}
     {% endif %}
-
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    
+    {% if page.layout == 'home' %}
+      {{ content }}
+    {% else %}
+      <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </main>
+    {% endif %}
 
     {%- include footer.html -%}
 

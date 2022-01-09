@@ -21,7 +21,7 @@ Dopo L’Accademia collabora con Giorgio Barberio Corsetti come assistente per r
 Fa da assistente a Corsetti anche per l’insegnamento alla classe di regia della Silvio d’amico. Gli autori trattati negli anni sono: Kleist, Müller, Labiche, Cechov, Pasolini.\\
 Come assistente alla regia collabora anche con Fabio Cherstich per le opere:\\
 **Turandot di Puccini** al teatro Massimo di Palermo (Scene e video del collettivo di artisti AES+F )\\
-**l barbiere di Siviglia di Gioacchino Rossini** al teatro Valli di Reggio Emilia (2021)\\
+**Il barbiere di Siviglia di Gioacchino Rossini** al teatro Valli di Reggio Emilia (2021)\\
 
 Nel 2017 presenta lo studio **Il sonno del calligrafo**, tratto dal romanzo Jakob Von Gunten di Robert Walser, alla sezione College della Biennale teatro di Venezia. Allo studio viene attribuita una menzione speciale per *‘Il rigore e l'inattesa ironia nell'affrontare un autore complesso come Robert Walser.'* In quell'occasione inizia la collaborazione con il regista e scenografo Fabio Cherstich che cura la drammaturgia delle immagini, le scene e i costumi di quel lavoro e dei successivi. 
 Nel 2018 debutta alla Biennale teatro di Venezia diretta da Antonio Latella con **Jakob Von Gunten**, tratto dal romanzo di Robert Walser.
