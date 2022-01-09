@@ -22,7 +22,7 @@ title: Fabio Condemi
 email: fabiocondemi@libero.it
 description: >- # this means to ignore newlines until "baseurl:"
   Regista teatrale
-baseurl: /fabiocondemi.github.io/ 
+baseurl: /fabiocondemi.github.io.git/ 
 domain: fabiocondemi.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://fabiocondemi.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 facebook_username: Facebook
