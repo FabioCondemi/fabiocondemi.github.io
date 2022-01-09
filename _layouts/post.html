@@ -70,24 +70,22 @@ layout: default
   {% endif %}
   {% if page.imagethumb %}
     <div class="gallery">
-        <div class="gallery-items">
+        <div>
         {% if page.imagethumb-2 %}
+          <ul>
             {% for item in page.imagethumb-2 %}
               {% if item.link contains 'http' %}
-                  <ul>
-                    <li>
-                      <img src="{{ item.link }}" alt="{{ page.title }}"/>
-                    </li>
-                  </ul>   
-                  {% else %}
-                  <ul>
-                    <li>
-                      <img src="{{ site.baseurl }}/img/{{ item.link }}" alt="{{ page.title }}"/>
-                    </li>
-                  </ul>   
+                <li>
+                  <img src="{{ item.link }}" alt="{{ page.title }}"/>
+                </li>  
+              {% else %}              
+                <li>
+                  <img src="{{ site.baseurl }}/img/{{ item.link }}" alt="{{ page.title }}"/>
+                </li>
               {% endif %}
             {% endfor %}
             {% else%}	
+          </ul>
         {% endif%}	
         </div> 
     </div>

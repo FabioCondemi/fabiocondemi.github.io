@@ -1,17 +1,15 @@
 {% if page.image %}   
-<div class=full-bg style="color: white;background-color:black; {% if page.background-image contains 'http'  %} background: url({{ page.image }}) no-repeat center center;  background-size: cover; {% else %} background: url({{ site.baseurl }}/img/homepage/{{ page.image }}) no-repeat center center;  background-size: cover; {% endif %}" >
-    <div class="wrapper home-title">
-        <h1><strong>{{page.header-title}}</strong></h1>
-        <h2><strong>{{page.header-subtitle | markdownify}}</strong></h2>
-    </div>  
-</div>
+    <div class=full-bg style="color: white;background-color:black; {% if page.background-image contains 'http'  %} background: url({{ page.image }}) no-repeat center center;  background-size: cover; {% else %} background: url({{ site.baseurl }}/img/homepage/{{ page.image }}) no-repeat center center;  background-size: cover; {% endif %}" >
+        <div class="wrapper home-title">
+            <h1><strong>{{page.header-title}}</strong></h1>
+            <h2><strong>{{page.header-subtitle | markdownify}}</strong></h2>
+        </div>  
+    </div>
 {% else %}
-<div class=full-bg style="color: white;background-color:black;" >
-    <div class="wrapper home-title">
-        <h1><strong>{{page.header-title}}</strong></h1>
-        <h2><strong>{{page.header-subtitle | markdownify}}</strong></h2>
-    </div>  
-</div>
+    <div class=full-bg style="color: white;background-color:black;" >
+        <div class="wrapper home-title">
+            <h1><strong>{{page.header-title}}</strong></h1>
+            <h2><strong>{{page.header-subtitle | markdownify}}</strong></h2>
+        </div>  
+    </div>
 {% endif %} 
-
-

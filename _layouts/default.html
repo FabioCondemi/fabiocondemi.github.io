@@ -5,9 +5,9 @@
 
   <body>
 
-    {%- include header.html -%}
+    {% include header.html %}
     {% if page.layout == 'home' %}
-     {%- include home-bg.html -%}
+     {% include home-bg.html %}
     {% endif %}
     {% if page.layout == 'post' or page.layout == 'post-radio' or page.layout == 'quaderni' %}
      {% include post-bg.html %}
@@ -27,7 +27,9 @@
 
     {% if page.layout == 'home' %}
      <!-- jQuery 1.8+ -->
-    	<script src="{{ site.baseurl }}/plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+     
+    <script src="{{ site.baseurl }}/plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+    <script src="{{ site.baseurl }}/plugin/js/flickity.pkgd.min.js"></script>
 	
      <!-- Media Boxes JS files -->
     	<script src="{{ site.baseurl }}/plugin/components/Isotope/jquery.isotope.min.js"></script>
