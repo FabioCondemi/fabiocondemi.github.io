@@ -1,15 +1,9 @@
-{% if page.image %}   
-    <div class=full-bg style="color: white;background-color:black; {% if page.background-image contains 'http'  %} background: url({{ page.image }}) no-repeat center center;  background-size: cover; {% else %} background: url({{ site.baseurl }}/img/homepage/{{ page.image }}) no-repeat center center;  background-size: cover; {% endif %}" >
-        <div class="wrapper home-title">
-            <h1><strong>{{page.header-title}}</strong></h1>
-            <h2><strong>{{page.header-subtitle | markdownify}}</strong></h2>
-        </div>  
-    </div>
-{% else %}
-    <div class=full-bg style="color: white;background-color:black;" >
-        <div class="wrapper home-title">
-            <h1><strong>{{page.header-title}}</strong></h1>
-            <h2><strong>{{page.header-subtitle | markdownify}}</strong></h2>
-        </div>  
-    </div>
-{% endif %} 
+<div class="carousel" data-flickity='{ "bgLazyLoad": true, "wrapAround": true, "autoPlay": 2000, "prevNextButtons": false, "pageDots": false}'>
+    {% for image in site.static_files %}
+        {% if image.path contains 'img/homepage' %}
+            <!--<img src="{{ site.baseurl }}{{ image.path }}" alt="image" />-->
+            <div class="carousel-cell"
+            data-flickity-bg-lazyload="{{ site.baseurl }}{{ image.path }}"></div>
+        {% endif %}
+    {% endfor %}
+</div>
