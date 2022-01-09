@@ -13,7 +13,7 @@ layout: default
   <div class="post-container e-content" itemprop="articleBody">
     <div class="post-data">
 
-      <img class="post-image" src="/img/{{page.image}}"/>
+      <img class="post-image" src="{{ site.baseurl }}/img/{{page.image}}"/>
       <div class="post-credits">
         <h3 class="bold">Credits</h3>
         
@@ -21,11 +21,11 @@ layout: default
         {% if page.comunicato-stampa %}
           {% if page.comunicato-stampa contains 'http' %}
             <div>
-              <a href="{{page.comunicato-stampa}}" ><img class="icon" src="/img/pdf_icon.svg"/> Comunicato Stampa</a>
+              <a href="{{page.comunicato-stampa}}" ><img class="icon" src="{{ site.baseurl }}/img/pdf_icon.svg"/> Comunicato Stampa</a>
             </div>
           {% else %}
             <div>
-              <a href="/data/{{page.comunicato-stampa}}" ><img class="icon" src="/img/pdf_icon.svg"/> Comunicato Stampa</a>
+              <a href="/data/{{page.comunicato-stampa}}" ><img class="icon" src="{{ site.baseurl }}/img/pdf_icon.svg"/> Comunicato Stampa</a>
             </div>
           {% endif %} 
         {% endif %} 
@@ -54,7 +54,7 @@ layout: default
                   </li>
                   {% else %}
                   <li>
-                    <img src="/img/{{ item.link }}" alt="{{ page.title }}"/>
+                    <img src="{{ site.baseurl }}/img/{{ item.link }}" alt="{{ page.title }}"/>
                   </li>
                 {% endif %} 
               {% endfor %}
