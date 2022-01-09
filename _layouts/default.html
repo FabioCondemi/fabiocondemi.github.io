@@ -14,7 +14,9 @@
     {% endif %}
     
     {% if page.layout == 'home' %}
-      {{ content }}
+     <div class="home-wrapper">
+         {{ content }}
+      </div>
     {% else %}
       <main class="page-content" aria-label="Content">
         <div class="wrapper">

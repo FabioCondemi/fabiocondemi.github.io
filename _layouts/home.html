@@ -8,9 +8,9 @@ layout: default
     <ul class="media-boxes-filter" id="filter">
       <li><a class="selected" href="#" data-filter="*">*</a></li>
       {% for category in site.categories %}
-      {% unless category contains 'calendar' or category contains 'stampa' %} 
-          <li><a href="#" data-filter=".{{ category | first }}">{{ category | first }}</a></li>
-      {% endunless %}
+        {% unless category contains 'calendar' or category contains 'stampa' %} 
+            <li><a href="#" data-filter=".{{ category | first }}">{{ category | first }}</a></li>
+        {% endunless %}
       {% endfor %}
     </ul>
   </div>	
