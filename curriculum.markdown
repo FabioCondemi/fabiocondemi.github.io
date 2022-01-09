@@ -8,7 +8,7 @@ title: Curriculum
 Nato a Ferrara il 5 giugno del 1988 e cresciuto nelle Marche (prima a Sassocorvaro, poi a Pesaro).
 
 Nel 2015 Si diploma al corso di regia dell’Accademia Nazionale d’arte drammatica ‘Silvio d’Amico’ di Roma con uno studio su **Bestia da Stile di Pier Paolo Pasolini**.\\
-Dopo L’Accademia collabora con Giorgio Barberio Corsetti come assistente per regie teatrali, operistiche e progetti didattici:
+Dopo L’Accademia collabora con Giorgio Barberio Corsetti come assistente per regie teatrali, operistiche e progetti didattici:\\
 **La Cenerentola di Rossini** al Teatro Massimo di Palermo,\\
 **Le streghe di Venezia di Philip Glass** al Teatro Massimo di Palermo\\
 **La pietra del Paragone di Rossini** al teatro lirico di Cagliari,\\
