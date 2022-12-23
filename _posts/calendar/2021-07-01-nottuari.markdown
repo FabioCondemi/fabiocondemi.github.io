@@ -3,6 +3,8 @@ layout: post
 title:  Nottuari
 date: 2021-07-01 00:20:48 +0100
 data-calendario:
-  - link: <a href="http://www.teatrodiroma.net/doc/7597/nottuari/">27 Aprile - 08 Maggio 2022, Teatro India, Roma</a>
+  - link: <a href="https://www.teatrodiroma.net/doc/7858/nottuari"><b>22 Febbraio - 05 Marzo 2023</b>, Teatro India, Roma</a>
+  - link: <a href="https://www.metastasio.it/it/eventi/cartellone/cartellone-22-23/nottuari.1101"><b>09 - 12 Marzo 2023</b>, Fabbricone, Prato</a>
+  - link: <a href="https://www.fondazionetpe.it/spettacoli/nottuari/"><b>14 - 19 Marzp 2023</b>, Teatro Astra, Torino</a>
 category: calendar
 ---

@@ -3,5 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-image: film-analisi-logica.jpg
+header-img: /img/calderon.jpg
 ---

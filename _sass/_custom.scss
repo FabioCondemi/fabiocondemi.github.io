@@ -107,7 +107,7 @@ a:visited {
   text-justify: inter-word;
 }
 
-// HEADERf
+// HEADER
 .site-header{
     font-family: 'Prata', serif;
     background-color: black;
@@ -415,12 +415,13 @@ a:visited {
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
-        align-content: space-around;
+        align-content: space-between; 
         gap: 10px 10px;
       }
       
       li {
-        height: 40vh;
+        height: 41vh;
+        align-self:flex-start;
       }
       
       img {
@@ -464,11 +465,15 @@ a:visited {
     }
 }
 
+// CURRICULUM
 
+.curriculum{
+    text-align:justify;
+}
 
 // STAMPA
 .stampa{
-    margin-top: 4rem;
+   
     display: inline-block;
     h1,h2,h3,h4,h5,h6{
         font-family: 'Raleway', sans-serif;
@@ -481,7 +486,7 @@ a:visited {
     h1,h2,h3,h4,h5,h6{
         font-family: 'Raleway', sans-serif;
     }
-    padding:2rem;
+    
     a{
         font-weight: 400;
     }

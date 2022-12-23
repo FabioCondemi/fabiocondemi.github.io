@@ -1,0 +1,64 @@
+---
+layout: post
+title: Calderón
+date:   2022-11-02 18:20:48 +0100
+category: teatro
+image: calderon.jpg
+background-image: calderon-bg.jpg
+video: https://www.youtube.com/embed/dYWkgXJ44cY
+credits: |
+  di	Pier Paolo Pasolini\\
+  regia, ideazione scene e costumi	Fabio Condemi\\
+  con (in o.a.)	Valentina Banci, Matilde Bernardi, Marco Cavalcoli, Michele Di Mauro, Carolina Ellero, Nico Guerzoni, Omar Madé, Caterina Meschini, Elena Rivoltini, Giulia Salvarani, Emanuele Valenti\\
+  scene, drammaturgia dell'immagine	Fabio Cherstich\\
+  costumi	Gianluca Sbicca\\
+  luci	Marco Giusti\\
+  disegno del suono	Alberto Tranchida\\
+  assistente alla regia	Angelica Azzellini\\
+  produzione	Emilia Romagna Teatro ERT / Teatro Nazionale, LAC Lugano Arte e Cultura\\
+  in collaborazione con	Associazione Santacristina Centro Teatrale\\
+  scene costruite presso il Laboratorio di Scenotecnica di ERT
+  responsabile del Laboratorio e capo costruttore Gioacchino Gramolini\\
+  costruttori Tiziano Barone, Davide Lago, Sergio Puzzo, Veronica Sbrancia, Leandro Spadola\\
+  scenografe decoratrici Ludovica Sitti con Sarah Menichini, Benedetta Monetti, Bianca Passanti, Martina Perrone\\
+  costruzioni in ferro realizzate da Falegnameria Scheggia\\
+  assistente alla progettazione scenografica Greta Maria Cosenza\\
+  costumi realizzati presso il Laboratorio di Sartoria del Piccolo Teatro di Milano – Teatro D’Europa\\
+  direttore tecnico Massimo Gianaroli\\
+  direttore di scena Lorenzo Martinelli\\
+  macchinisti Rebecca Quintavalle e Davide Lago\\
+  attrezzista Benedetta Monetti\\
+  capo elettricista Giuseppe Tomasi\\
+  fonico Alberto Tranchida\\
+  sarta Elena Dal Pozzo\\
+  nell’ambito del progetto “Come devi immaginarmi” dedicato a Pier Paolo Pasolini\\
+  un ringraziamento a Acondroplasia Insieme per crescere Onlus\\
+  foto di scena Luca Del Pia\\
+  documentazione video Lucio Fiorentino\\
+
+imagethumb:
+  - link: calderon-.jpg
+  - link: calderon-2.jpg
+  - link: calderon-1.jpg
+  - link: calderon-11.jpg
+  - link: calderon-4.jpg
+  - link: calderon-6.jpg
+  - link: calderon-7.jpg
+  - link: calderon-8.jpg
+  - link: calderon-9.jpg
+  - link: calderon-10.jpg
+  - link: calderon-3.jpg
+  - link: calderon-12.jpg
+  - link: calderon-13.jpg
+  - link: calderon-14.jpg
+  - link: calderon-15.jpg
+  - link: calderon-16.jpg
+  - link: calderon-17.jpg
+
+ 
+fotografo: Luca Del Pia
+---
+
+Il regista Premio Ubu Fabio Condemi incontra nuovamente le parole di Pier Paolo Pasolini: Calderón è una tragedia in versi ispirata al capolavoro del grande autore secentesco Pedro Calderón de la Barca, La vita è sogno. Ma l’atmosfera, la trama, il contesto sono radicalmente diversi: siamo nella Spagna franchista degli anni ‘60, tra tumulti rivoluzionari e logiche di potere che sembrano non lasciare altro spazio di libertà che nel sogno o nella pittura di Diego Velázquez.
+
+Lo spettacolo è realizzato all’interno del Progetto internazionale *“Prospero Extended Theatre”*, grazie al supporto del programma *“Europa Creativa”* dell’Unione Europea.
